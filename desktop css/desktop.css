@@ -1,0 +1,74 @@
+@media screen and (max-width:1200px){
+    
+    [class*=col-]{
+        float: left;
+        padding: 10px;
+    }
+    [class*=col-]{
+        width: 100%;
+    }
+    /*start header area*/
+    .logo{
+        text-align: center;
+    }
+
+    .header-heading h1{
+     font-size: 2.4rem;
+        color: white;
+        text-align: center;
+}   
+.header-navbar{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    }
+    .header-navbar a{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(2, 95, 95)
+        
+        
+    
+    }
+
+
+    /*==========end header=============*/
+
+
+    /*==========starts profile =============*/
+
+    .top-weather{
+        right: 0px;
+        top: 0px;
+        }
+
+
+
+    /*==========end profile=============*/
+    /*==========start about=============*/
+
+    .about-me-desc{
+        text-align: center;
+    } 
+       
+    /*==========end about=============*/
+
+
+
+    /*==========start footer section here=============*/
+
+.footer-menu a{
+    display: block;
+    text-align: center;
+    
+    
+}
+
+}
+
